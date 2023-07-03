@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-auth-sys"
+version = "0.1.0"
+description = "A simple Django Authentication & User Management System"
+authors = ["Maruf Bepary <bepary71@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_auth_sys"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.3"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
