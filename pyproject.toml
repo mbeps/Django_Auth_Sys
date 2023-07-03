@@ -11,6 +11,7 @@ packages = [{include = "django_auth_sys"}]
 python = "^3.10"
 Django = "^4.2.3"
 pytest = "^7.4.0"
+djangorestframework = "^3.14.0"
 
 
 [build-system]
